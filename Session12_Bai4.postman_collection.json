@@ -1,0 +1,31 @@
+{
+  "info": {
+    "_postman_id": "13b9d464-f5bb-42d2-9f85-c0e90525f3d6",
+    "name": "Session12_Bai4",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "48465516"
+  },
+  "item": [
+    {
+      "name": "Get Student id not found",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/students/99",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "students",
+            "99"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
