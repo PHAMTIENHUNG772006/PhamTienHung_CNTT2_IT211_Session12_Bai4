@@ -1,0 +1,21 @@
+package com.re.session12.model.entity;
+
+
+import jakarta.persistence.*;
+import lombok.*;
+
+@Entity
+@Table(name = "students")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Student {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String studentCode;
+    private String fullName;
+    private String major;
+    private Double gpa;
+}
